@@ -4,6 +4,7 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 import store from './store'
+import Axios from '@/api'
 
 import { BootstrapVue, IconsPlugin } from 'bootstrap-vue'
 import VueSweetalert2 from 'vue-sweetalert2';
@@ -16,6 +17,7 @@ Vue.use(IconsPlugin)
 Vue.use(VueSweetalert2);
 
 Vue.config.productionTip = false
+Vue.prototype.$http = Axios;
 
 /* eslint-disable no-new */
 new Vue({
