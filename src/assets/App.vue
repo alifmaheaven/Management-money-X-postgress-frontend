@@ -7,14 +7,15 @@
           <router-view/>
         </div>
         <footery></footery>
+
      </div>
   </div>
 </template>
 
 <script>
-import Navbar from './components/template/Navbar'
-import Sidebar from './components/template/Sidebar'
-import Footer from './components/template/Footer'
+import Navbar from './components/Navbar'
+import Sidebar from './components/Sidebar'
+import Footer from './components/Footer'
 
 import './assets/js/scripts'
 import './assets/js/custom'
@@ -29,7 +30,6 @@ export default {
 }
 
 </script>
-
 
 <style>
   @import './assets/css/style.css';
