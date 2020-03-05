@@ -10,8 +10,13 @@
     "build": "node build/build.js"
   },
   "dependencies": {
-    "vue": "^2.5.2",
-    "vue-router": "^3.0.1"
+    "axios": "^0.19.2",
+    "bootstrap": "^4.4.1",
+    "bootstrap-vue": "^2.5.0",
+    "vue": "^2.6.11",
+    "vue-router": "^3.0.1",
+    "vue-sweetalert2": "^3.0.3",
+    "vuex": "^3.1.2"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.2",
